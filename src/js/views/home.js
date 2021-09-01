@@ -16,7 +16,7 @@ export const Home = () => {
 					{store.people.map((persona, id) => {
 						return (
 							<>
-								<Cards
+								<Cards 
 									key={id}
 									obj={persona}
 									url_img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL--27dGNYvfui73LzVnVdQKt1mGGxCNv98A&usqp=CAU"
