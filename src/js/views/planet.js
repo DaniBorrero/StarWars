@@ -16,18 +16,18 @@ export const Planet = props => {
 				style={{ width: "25rem" }}
 				className="mb-2 bg-dark text-white my-5 d-flex container-fluid">
 				<Card.Header>
-					<h1>{store.planet.name}</h1>
+					<h1>{store.planetas.name}</h1>
 				</Card.Header>
 				<Card.Body>
 					<Card.Title>
 						<h3>Caracteristicas</h3>
 					</Card.Title>
 					<hr />
-					<p>Diametro: {store.planet.diameter} </p>
-					<p>Clima: {store.planet.climate} </p>
-					<p>Poblacion: {store.planet.population} </p>
-					<p>Terreno: {store.planet.terrain} </p>
-					<p>Gravedad: {store.planet.gravity} </p>
+					<p>Diametro: {store.planetas.diameter} </p>
+					<p>Clima: {store.planetas.climate} </p>
+					<p>Poblacion: {store.planetas.population} </p>
+					<p>Terreno: {store.planetas.terrain} </p>
+					<p>Gravedad: {store.planetas.gravity} </p>
 				</Card.Body>
 			</Card>
 		</>
